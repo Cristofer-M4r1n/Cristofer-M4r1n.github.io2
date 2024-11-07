@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/LoginV.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <!-- Fuente de google Fonts -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'>
+    <title>Login</title>
+</head>
+
+<body>
+
+
+    <header><!-- Varra de navegacion -->
+        <h2 class="Logo"><i class="fi fi-ss-claw-marks"></i></h2>
+        <nav class="navegacion">
+            <a href="#">Home</a>
+            <a href="#">Abaut</a>
+            <a href="#">Services</a>
+            <a href="#">Contac</a>
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+    </header>
+
+    <main class="main">
+
+        <div class="principal">
+            <span class="icono-Cierre">
+                <ion-icon name="close"></ion-icon>
+            </span>
+
+            <div class="Caja-Login">
+                <h2>Login</h2>
+                <form action="#">
+                    <div class="caja-input">
+                        <span class="icono"><ion-icon name="mail"></ion-icon></span>
+                            <input type="text" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="caja-input">
+                        <span class="icono">
+                            <ion-icon name="lock-closed"></ion-icon>
+                        </span>
+                            <input type="password" required>
+                        <label>Contraseña</label>
+                    </div>
+                    <div class="recordarContra">
+                        <label><input type="checkbox">
+                            Recordar Contraseña</label>
+                        <a href="#">Recordar Contraseña?</a>
+
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                    <div class="loginRegister">
+                        <p>No tienes una cuenta?<a href="#" class="register-link">Register</a></p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="Caja-Register">
+                <h2>Registration</h2>
+                <form action="#">
+                    <div class="caja-input">
+                        <span class="icono">
+                            <ion-icon name="person"></ion-icon>
+                        </span>
+                        <input type="text" required>
+                        <label>Username</label>
+                    </div>
+                    <div class="caja-input">
+                        <span class="icono"><ion-icon name="mail"></ion-icon></span>
+                        <input type="text" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="caja-input">
+                        <span class="icono"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Contraseña</label>
+                    </div>
+                    <div class="recordarContra">
+                        <label>
+                            <input type="checkbox">Acepta terminos y condiciones?
+                        </label>
+
+                    </div>
+                    <button type="submit" class="btn">Register</button>
+                    <div class="loginRegister">
+                        <p>Ya tienes una cuenta?<a href="#" class="login-link">Login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+    </main>
+
+
+    <footer id="footer"></footer>
+
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="../assets/js/Login.js"></script>
+<script src="../assets/js/Footer.js"></script>
+
+</html>
